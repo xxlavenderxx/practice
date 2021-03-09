@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'rabbit';
+  src:  url('fonts/rabbit.eot?279zwt');
+  src:  url('fonts/rabbit.eot?279zwt#iefix') format('embedded-opentype'),
+    url('fonts/rabbit.ttf?279zwt') format('truetype'),
+    url('fonts/rabbit.woff?279zwt') format('woff'),
+    url('fonts/rabbit.svg?279zwt#rabbit') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="ra-"], [class*=" ra-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'rabbit' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ra-icon-rabbit:before {
+  content: "\e900";
+}
+
+@font-face {
+  font-family: 'fishes';
+  src:
+    url('fonts/fishes.ttf?qj3fz9') format('truetype'),
+    url('fonts/fishes.woff?qj3fz9') format('woff'),
+    url('fonts/fishes.svg?qj3fz9#fishes') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="ico-"], [class*=" ico-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'fishes' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-croos:before {
+  content: "\e902";
+}
+.ico-fish:before {
+  content: "\e901";
+}
