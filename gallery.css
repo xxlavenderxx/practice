@@ -1,0 +1,98 @@
+body{
+  background: #f1e5c7;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+}
+@media (max-width:768px) {
+  .art-content, .dish-content, .game-content, .suzu-content{
+      flex-direction: column;
+  }
+  .a-con, .d-con, .g-con, .s-con{
+    width: 80%;
+    margin: auto;
+  }
+}
+
+header{
+  height:10vw;
+}
+.mg{
+  display: block;
+  opacity: 1;
+}
+.logo-container{
+  height:8vw;
+  width: 25vw;
+  margin: 1vw;
+}
+.logo-container img{
+  width: 100%;
+  vertical-align: top;
+}
+/* メイン */
+.main-wrapper{
+  width: 100%;
+  margin: 10vw 0;
+}
+.slide-container{
+  width: 80vw;
+  margin: 0 auto;
+}
+/* コンテンツ全体共通*/
+.container-box{
+  width: 70%;
+  max-width: 960px;
+  background: rgba(256,256,256,0.8);
+  margin: 0 auto;
+}
+.art-container, .dish-container, .game-container, .suzu-container{
+  width: 100%;
+  margin: 0;
+}
+.art-content, .dish-content, .game-content,{
+  width: 100%;
+  height: 20vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.suzu-container{
+}
+.suzu-content{
+  height: 20vw;
+}
+
+
+.sorry img{
+  width: 100%;
+}
+
+
+/* フッター */
+footer{
+  height: 20vw;
+  position: relative;
+}
+.footer-logo{
+  bottom:0;
+  right:0;
+  position: absolute;
+}
+
+
+
+
+/* .loading{
+  height: 100vh;
+  width: 100vw;
+  z-index: 100;
+} */
+/* .rabbit-wash{
+  text-align: center;
+  width:256px;
+  height:256px;
+  margin: auto 0;
+  background: url("rabbit-faceWash.png") ;
+  background: url("rabbit-faceWash.svg") ;
+} */
