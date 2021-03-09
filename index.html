@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head lang="ja">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- ファイル名変える -->
+    <title>作成中</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index_menu.css">
+    <link rel="stylesheet" href="../icon/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <script src="index.js" defer></script>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+<body>
+<header>
+  <div class="hbmenu">
+    <input id="menu" type="checkbox">
+    <label for="menu" class="open"><i class="ico-fish"></i></label>
+    <label for="menu" class="back"></label>
+    <div class= "menu-container">
+      <label for="menu" class="close"><i class="ico-croos"></i></label>
+      <ul>
+        <li><a href="#">トップページ</a></li>
+        <li><a href="#greet"><!-- <i class="fas fa-door-open"></i> -->ごあいさつ</a></li>
+        <li><a href="gallery.html" class="mg"><!-- <i class="fas fa-list-ul fa-fw"></i>--> 作品紹介<br><p>ページを移動します</p></a></li>
+      </ul>
+
+    </div>
+  </div>
+</header>
+<div class = "top-wrapper">
+<div class="top-container">
+  <div class="bg"></div>
+  <div class="top-text">
+    <h1>The wisest mind has </h1>
+    <h1>something yet to learn</h1>
+    <h2>― George Santayana</h2>
+  </div>
+</div>
+<div class='box'>
+  <div class='wave'></div>
+  <div class='wave -one'></div>
+</div>
+<div class='box flont'>
+  <div class='wave -two'></div>
+  <div class='wave -three'></div>
+  <div class='wave -four'></div>
+</div>
+</div>
+<div class="main-wrapper" id="greet">
+    <div class="heading">
+      <h1>◇◆◇ごあいさつ◇◆◇</h1>
+    </div>
+    <div class="img-icon"><img src="lavender-rabbit.png" alt="うさぎ" class="rabbit"></div>
+    <div class="text-container">
+      <p>どうも！ゲーム大好きラベ子です☆彡<br><br>
+        最近、プログラミングの勉強を始めました！　<br>
+        作ったものを作品紹介のページにおいているので<br>
+        よかったら覗いていってください(｡っ・∀・)っ</p>
+      <p>ご感想もお待ちしています</p>
+    </div>
+</div>
+<div class="bottom-wrapper">
+  <div class="heading">
+    <h1>◇◆◇作品紹介◇◆◇</h1>
+  </div>
+  <div class="slide-container">
+    <a href="gallery.html">
+      <div class="slideshow">
+        <input type="radio" name="slideshow" id="switch1" checked>
+        <input type="radio" name="slideshow" id="switch2">
+        <input type="radio" name="slideshow" id="switch3">
+        <input type="radio" name="slideshow" id="switch4">
+        <input type="radio" name="slideshow" id="switch5">
+        <div class="slideContents">
+          <section id="slide1" class="video" poster="rabbit-1.png">
+            <video src="unityPractice.mp4" muted autoplay playinline loop ></video>
+          </section>
+          <section id="slide2">
+            <img src="IMG_2139.jpg">
+          </section>
+          <section id="slide3">
+            <img src="IMG_7795.png">
+          </section>
+          <section id="slide4">
+            <img src="apple1.jpg">
+          </section>
+          <section id="slide5">
+            <img src="crossstitch_s.jpg">
+          </section>
+        </div>
+        <p class="arrow prev">
+          <i class="ico"></i>
+          <label for="switch1"></label>
+          <label for="switch2"></label>
+          <label for="switch3"></label>
+          <label for="switch4"></label>
+          <label for="switch5"></label>
+        </p>
+        <p class="arrow next">
+          <i class="ico"></i>
+          <label for="switch1"></label>
+          <label for="switch2"></label>
+          <label for="switch3"></label>
+          <label for="switch4"></label>
+          <label for="switch5"></label>
+        </p>
+      </div>
+      <a>
+  </div>
+
+</div>
+<footer>
+  <div class="logo-container"><img src="lavender-logo.svg" alt="stdio Lavender"></div>
+</footer>
+</body>
+</html>
