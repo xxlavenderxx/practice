@@ -183,7 +183,7 @@ input[name="slideshow"] {
 	transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .slideContents section img, video{
-	max-width: 100%;
+	width: 100%;
   max-height: 70vw;
 	padding: 0;
 	box-sizing: border-box;
