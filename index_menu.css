@@ -55,7 +55,6 @@ input[type="checkbox"]{
   opacity: .5;
 }
 .fa-book-open:hover{
-  font-size: 35px;
   text-shadow:0.1vw 0.1vw 0.2vw yellow;
 }
 .ico-croos{
@@ -65,7 +64,6 @@ input[type="checkbox"]{
   transition: all 0.3s;
 }
 .ico-croos:hover{
-  font-size: 35px;
   text-shadow:0.1vw 0.1vw 0.2vw yellow;
 }
 .ra-icon-rabbit{
@@ -113,9 +111,6 @@ input[type="checkbox"]:checked ~ .back{
     display: block;
   }
   .ico-fish, .fa-book-open{
-    font-size: 5vw;
-  }
-    .fa-book-open:hover{
     font-size: 5vw;
   }
   .ico-croos{
