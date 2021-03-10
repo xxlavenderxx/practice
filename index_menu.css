@@ -1,7 +1,7 @@
 /* レイアウト */
 .hbmenu{
   width: 20%;
-  min-width: 68px;
+  min-width: 100px;
   height: 100%;
   position: fixed;
   top: 0;
@@ -26,13 +26,14 @@
   line-height: 10vh;
   color: white;
   text-shadow:0.1vw 0.1vw 0.2vw #144f5f;
+  font-weight: bold;
 }
 a:hover{
   text-shadow:0.1vw 0.1vw 0.2vw yellow;
 }
 .menu-container p{
-  font-size: 1.3vw;
-  line-height: 1.3vw;
+  font-size:1.5vw;
+  line-height: 1.5vw;
   display: none;
 }
 input[type="checkbox"]{
@@ -44,7 +45,7 @@ input[type="checkbox"]{
   opacity: 0.9;
   top: 5vh;
   right: 4vw;
-  font-size: 5vw;
+  font-size: 35px;
   color: white;
   text-shadow:0.1vw 0.1vw 0.2vw rgba(15,53,74,0.9);
   transition: all 0.3s;
@@ -54,21 +55,21 @@ input[type="checkbox"]{
   opacity: .5;
 }
 .fa-book-open:hover{
-  font-size: 6vw;
+  font-size: 35px;
   text-shadow:0.1vw 0.1vw 0.2vw yellow;
 }
 .ico-croos{
-  font-size: 5vw;
+  font-size: 35px;
   color: white;
   text-shadow:0.1vw 0.1vw 0.2vw rgba(15,53,74,0.9);
   transition: all 0.3s;
 }
 .ico-croos:hover{
-  font-size: 6vw;
+  font-size: 35px;
   text-shadow:0.1vw 0.1vw 0.2vw yellow;
 }
 .ra-icon-rabbit{
-  font-size:4vw;
+  font-size:40px;
   color: white;
   text-shadow:0.1vw 0.1vw 0.2vw #6c604a;
 }
@@ -94,6 +95,7 @@ input[type="checkbox"]:checked ~ .back{
 }
 
 /* PC用 */
+
 @media screen and (min-width:768px) {
   .menu-container{
       right: 0;
@@ -106,5 +108,17 @@ input[type="checkbox"]:checked ~ .back{
   }
   input[type="checkbox"]:checked ~ .open{
     display: block;
+  }
+  .ico-fish, .fa-book-open{
+    font-size: 5vw;
+  }
+  .ico-croos{
+  font-size: 5vw;
+  }
+  .ico-croos:hover{
+  font-size: 6vw;
+  }
+  .ra-icon-rabbit{
+  font-size:4vw;
   }
 }
