@@ -27,9 +27,6 @@ time, mark, audio, video {
  scroll-behavior: smooth;
 }
 
-@media(max-width:425px) p,a,li{
- font-size:16px;
-}
 body {
  /* プロジェクトによって変動 */
  color: #000;
