@@ -73,6 +73,9 @@ input[type="checkbox"]{
   color: white;
   text-shadow:0.1vw 0.1vw 0.2vw #6c604a;
 }
+.ra-icon-rabbit:hover{
+  text-shadow:0.1vw 0.1vw 0.2vw yellow;
+}
 .mg:hover >p{
   color: yellow;
   text-shadow:0.1vw 0.1vw 0.2vw lightpink;
@@ -110,6 +113,9 @@ input[type="checkbox"]:checked ~ .back{
     display: block;
   }
   .ico-fish, .fa-book-open{
+    font-size: 5vw;
+  }
+    .fa-book-open:hover{
     font-size: 5vw;
   }
   .ico-croos{
