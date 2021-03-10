@@ -3,9 +3,7 @@
 
 }
 @media screen and (min-width:1168px) {
-html p{
-  font-size: 28px;
-}
+
 }
 
 /* 共通設定 */
@@ -13,10 +11,6 @@ body{
   color: white;
   letter-spacing: .2em;
 }
-p,a{
-  /* font-size: 2vw; */
-}
-
 .top-wrapper{
   overflow: hidden;
 }
@@ -99,7 +93,6 @@ p,a{
   position: relative;
   background: linear-gradient(#80d7eb,#99d4db);
   z-index: 15;
-  font-size:
 }
 .heading{
   padding-top: 8vw;
