@@ -127,7 +127,7 @@ body{
   border: dashed 0.5vw white;
   height: 40vw;
 }
-.slide-container a{
+.toGallery{
   vertical-align: middle;
 }
 footer{
@@ -217,7 +217,7 @@ input[name="slideshow"] {
 	width: 12px;
 	height: 12px;
 	border-top: 3px solid #fff;
-	opacity: 0;
+	opacity: 0.5;
 }
 .prev .ico {
 	left: 50%;
