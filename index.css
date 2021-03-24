@@ -217,6 +217,7 @@ input[name="slideshow"] {
 	width: 12px;
 	height: 12px;
 	border-top: 3px solid #fff;
+	font-size:1.5vw;
 	opacity: 0.5;
 }
 .prev .ico {
