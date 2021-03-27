@@ -3,23 +3,22 @@ body{
   color: white;
   text-shadow: 1px 1px 2px black;
   text-align: center;
+  letter-spacing: 0.2em;
 }
-@media (max-width:768px) {
-  .art-content, .dish-content, .game-content, .suzu-content{
-      flex-direction: column;
-  }
-  .a-con, .d-con, .g-con, .s-con{
-    width: 80%;
-    margin: auto;
-  }
-}
-
-header{
-  height:10vw;
+/* メニューバー閉じるときの背景色 */
+input[type="checkbox"]:checked ~ .back{
+  background-color: #a79183;
+  opacity: 0.3;
 }
 .mg{
   display: block;
   opacity: 1;
+}
+header{
+  height:10vw;
+}
+h3{
+  letter-spacing: 0.3em;
 }
 .logo-container{
   height:8vw;
@@ -33,41 +32,43 @@ header{
 /* メイン */
 .main-wrapper{
   width: 100%;
-  margin: 10vw 0;
+  margin-top: 10vw;
 }
-.slide-container{
-  width: 80vw;
-  margin: 0 auto;
+.rabbit-faceWash{
+  width: 100%;
 }
-/* コンテンツ全体共通*/
 .container-box{
-  width: 70%;
-  max-width: 960px;
+  width: 100%;
   background: rgba(256,256,256,0.8);
   margin: 0 auto;
+  color: #725d4e;
+  padding-top: 20px;
 }
-.art-container, .dish-container, .game-container, .suzu-container{
-  width: 100%;
-  margin: 0;
+.game-container{
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
 }
-.art-content, .dish-content, .game-content,{
-  width: 100%;
-  height: 20vw;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.suzu-container{
-}
-.suzu-content{
-  height: 20vw;
+.content{
+  margin:5vw 0;
 }
 
-
-.sorry img{
-  width: 100%;
+.slide{
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+}
+.slide img{
+  width:100%;
 }
 
+.game-a{
+  word-break: break-all;
+}
+.rabbit-pc{
+  width: 50%;
+  margin: 20px auto;
+}
 
 /* フッター */
 footer{
@@ -79,20 +80,20 @@ footer{
   right:0;
   position: absolute;
 }
+.border-svg{
+  width: 100%;
+  margin-top: 5vw;
+}
+.rabbit-pre{
+  width: 50%;
+}
 
 
-
-
-/* .loading{
-  height: 100vh;
-  width: 100vw;
-  z-index: 100;
-} */
-/* .rabbit-wash{
-  text-align: center;
-  width:256px;
-  height:256px;
-  margin: auto 0;
-  background: url("rabbit-faceWash.png") ;
-  background: url("rabbit-faceWash.svg") ;
-} */
+@media(min-width:600px) {
+  .container-box{
+    width: 70%;
+  }
+  .border-svg{
+    width: 80%;
+  }
+}
