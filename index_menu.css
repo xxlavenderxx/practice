@@ -19,7 +19,7 @@
   background-color: rgba(256,256,256,0.3);
 }
 
-.menu-container ul,a{
+.menu-container ul,.menu-container a{
   padding-top:5vh;
   list-style: none;
   text-decoration:none;
