@@ -17,7 +17,7 @@ header{
   height:10vw;
 }
 .greet {
-  letter-spacing: 0.3em;
+  letter-spacing: 0.1em;
   text-shadow: 1px 1px 2px black;
 }
 .logo-container{
@@ -90,6 +90,9 @@ footer{
 
 
 @media(min-width:600px) {
+  .greet{
+    letter-spacing: 0.3em;
+  }
   .container-box{
     width: 70%;
   }
