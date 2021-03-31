@@ -26,20 +26,19 @@ time, mark, audio, video {
  background:transparent;
  scroll-behavior: smooth;
 }
-
-@media screen and(min-width:200px) {
+@media (min-width:200px) {
   p,a,li{
-    font-size:16px;
+    font-size:14px;
   }
 
   h1{
-    font-size: 20px;
-  }
-  h2{
     font-size: 18px;
   }
+  h2{
+    font-size: 16px;
+  }
 }
-@media screen and (min-width:500px){
+@media (min-width:500px){
 
   p,a,li{
     font-size:2vw;
@@ -53,7 +52,7 @@ time, mark, audio, video {
   }
 }
 
-@media screen and (min-width:1169px) {
+@media (min-width:1169px) {
   p,a,li{
     font-size:24px;
   }
@@ -67,11 +66,9 @@ time, mark, audio, video {
 }
 
 body {
- /* プロジェクトによって変動 */
  color: #000;
  line-height: 1.6;
  font-weight: 400;
- font-size:1.5vw;
  font-family: 'Segoe Print','ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'YuGothic', '游ゴシック', 'メイリオ', Meiryo, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
  width: 100%;
  font-smoothing: antialiased;
