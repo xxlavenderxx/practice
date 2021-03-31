@@ -1,7 +1,6 @@
 body{
   background: #f1e5c7;
   color: white;
-  text-shadow: 1px 1px 2px black;
   text-align: center;
   letter-spacing: 0.2em;
 }
@@ -90,6 +89,9 @@ footer{
 
 
 @media(min-width:600px) {
+  body{
+    text-shadow: 1px 1px 2px black;
+  }
   .container-box{
     width: 70%;
   }
