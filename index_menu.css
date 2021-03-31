@@ -1,7 +1,7 @@
 /* レイアウト */
 .hbmenu{
   width: 20%;
-  min-width: 100px;
+  min-width: 120px;
   height: 100%;
   position: fixed;
   top: 0;
