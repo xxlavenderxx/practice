@@ -16,8 +16,9 @@ input[type="checkbox"]:checked ~ .back{
 header{
   height:10vw;
 }
-h3{
+.greet {
   letter-spacing: 0.3em;
+  text-shadow: 1px 1px 2px black;
 }
 .logo-container{
   height:8vw;
@@ -89,9 +90,6 @@ footer{
 
 
 @media(min-width:600px) {
-  body{
-    text-shadow: 1px 1px 2px black;
-  }
   .container-box{
     width: 70%;
   }
