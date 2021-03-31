@@ -117,7 +117,7 @@ body{
 .bottom-wrapper{
   position: relative;
   z-index: 15;
-  height: 70vw;
+  height: 75vw;
   background: #99d4db;
 }
 .slide-container{
