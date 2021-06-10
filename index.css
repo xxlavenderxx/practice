@@ -22,7 +22,7 @@ body{
 .bg{
   height:120vw;
   min-height: 100vh;
-  background-image: url("IMG_5299.jpeg");
+  background-image: url("data/IMG_5299.jpeg");
   background-size: cover;
   opacity: 0.5;
 }

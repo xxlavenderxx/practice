@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head lang="ja">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- ファイル名変える -->
+    <title>制作中</title>
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../index_menu.css">
+    <link rel="stylesheet" href="../icon/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+  <!-- menubar -->
+  <!-- <div id="loading">
+    <div class="rabbit-wash"></div>
+  </div> -->
+  <div class="hbmenu">
+    <input id="menu" type="checkbox">
+    <label for="menu" class="open"><i class="fas fa-book-open fa-fw"></i></label>
+    <label for="menu" class="back"></label>
+    <div class= "menu-container">
+      <label for="menu" class="close"><i class="ra-icon-rabbit"></i></label>
+      <ul>
+        <li><a href="../index.html" class="mg"><!-- <i class="fas fa-door-open"></i> -->トップページ<p>ページを移動します</p></a></li>
+        <li><a href="index.html" class="mg"><!-- <i class="fas fa-list-ul fa-fw"></i>--> 作品紹介<p>ページを移動します</p></a></li>
+        <li><a href=""><!-- <i class="fas fa-list-ul fa-fw"></i>--> 制作中</a></li>
+        <li><a href=""></a></li>
+      </ul>
+    </div>
+  </div>
+  <header>
+    <div class="logo-container"><img src="../data/lavender-logo.svg" alt="stdio Lavender"></div>
+  </header>
+  <div class="main-wrapper">
+    <p class="greet">このページでは現在ラベ子が作っているものを紹介しています。<br>温かい気持ちで見守ってただけたらと思います(_*・ω・)_</p>
+    <img class="rabbit-faceWash" src="../data/rabbit-faceWash.svg" alt="rabbit">
+    <div class="container-box">
+      <div class="game-container">
+        <h1>制作中</h1>
+        <div class="subTitle"><p><br><br><br>横スクロールのアクションゲームにチャレンジ</p></div>
+        <div class="content">
+          <h2><i class="ra-rabbitScared"></i>うさんぽ<i class="ra-rabbitScared" style="transform:scaleX(-1);display:inline-block;"></i></h2>
+          <p><br><br>
+            はい！今回のゲームにはついにうさぎさんが出てきます<br>
+            どうやらホームページの中だけでは窮屈だったようですね！<br><br>
+            では、さっそく内容紹介！(｀・ω・´)<br><br>
+          </p>
+          <div class="slide">
+            <img src="../data/rabbbitGame1.png">
+            <p>ベースはゲームの作り方チャンネルさんという方の初心者入門口座を参考に制作しております。<br>
+              毎度おなじみですが、テクスチャは下書きのままです。<br>
+              画像はプレイヤーとうさ様です。まずはうさ様がプレイヤーを追従するようにしませう<br>
+              <br><br><br></p>
+            <video src="../data/rabbitFriend.mp4" muted autoplay playinline loop ></video>
+            <p>はい！できました(∩´∀｀)∩うさ様がプレイヤーの位置情報を取得したとき一定以上離れているとうさ様が突進していきます。
+              段差を上る時の動きは要改善ですね...<br>
+              最初、プレイヤーもうさ様も自重で斜面が登れなかった為、斜面では常にかかる重力を０にしてアシストしています。<br>
+              いやー、らべ子も体重測る時にそのアシストほしいです。<br>
+              うさ様の走りがややぎこちないのはご愛敬です。
+              <br><br><br></p>
+            <img src="../data/rabbbitGame2.png">
+            <p>Oh...<br>
+              ときどき事故ります。<br>
+              うさ様も一度や二度は許してくれますが、痛いものは痛いのです
+              <br><br><br></p>
+            <video src="../data/rabbitEnemy.mp4" muted autoplay playinline loop ></video>
+            <p>嫌われました 泣<br>
+              この状態のときは一定距離以上近づくと逃げるうさ様。<br>
+              逃げられないときはプルプルします。この辺の制御はアニメーションで行っています。<br>
+              プレイヤー、うさ様どちらも時々目に見えない何かに引っかかるのでイラスト差し替えたときに当たり判定も直す必要がありそうです。<br><br><br></p>
+            <p>最終的にはマップ内に隠れているうさ様達を見つけてゴールまで連れていくというゲームにする予定です！
+              ゴールした時の親密度に応じてホームに連れて帰れるという仕様も作っていきたいです^_^</p><br>
+              <div class="rabbit-pc"><img src="../data/rabbit-home.svg" alt=""></div>
+            </div>
+            <div class="subTitle"><p>最後まで読んでくださりありがとうございました！<br><br><br></p></div>
+          </div>
+          次回更新をお待ちください！<br><br><br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sorry">
+    <img class="border-svg" src="../data/border-doublewave.svg" alt="">
+    <!-- <h1>申し訳ありません。只今準備中です</h1> -->
+    <img class="rabbit-pre" src="../data/rabbit-pre.svg" alt="">
+  </div>
+</div>
+  <footer>
+    <div class="logo-container footer-logo"><img src="../data/lavender-logo.svg" alt="stdio Lavender"></div>
+  </footer>
+  </body>
+</html>
